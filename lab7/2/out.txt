@@ -1,0 +1,64 @@
+
+Diagonala principală:
+1
+6
+11
+16
+
+Diagonala secundară:
+4
+7
+10
+13
+
+Sub diagonala principală:
+5
+9 10
+13 14 15
+
+Peste diagonala principală:
+2 3 4
+7 8
+12
+
+Sub diagonala secundară:
+8
+11 12
+14 15 16
+
+Peste diagonala secundară:
+1 2 3
+5 6
+9
+
+Colțurile matricei:
+1 4
+13 16
+
+Marginile matricei:
+1 2 3 4
+5 ... 8
+9 ... 12
+13 14 15 16
+
+Zona nordică a matricei:
+1 2 3 4
+5 6 7 8
+
+Zona sudică a matricei:
+9 10 11 12
+13 14 15 16
+
+Zona vestică a matricei:
+1 2
+5 6
+9 10
+13 14
+
+Zona estică a matricei:
+3 4
+7 8
+11 12
+15 16
+
+Fișier modificat la: 2025-04-12 18:30:57.533410

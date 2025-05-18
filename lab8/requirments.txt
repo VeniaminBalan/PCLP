@@ -1,0 +1,19 @@
+Sa se scrie un script python care va citi din fisierul date.csv (fisier de mai sus), fisierul contine coloane
+delimitate prin ",": timestamp,device_id,temperature,humidity,pressure. Sa se afise intr-o fereastra grafice care descriu evolutia
+temperaturii, umiditatii si presiunii, si grafice care afiseaza media valorilor temperaturii, umiditatii si presinuii repsectiv pentru fiecare device
+fiecare grafic va afisa valorile tuturor dispozitivelor.
+
+observatii:
+- se va folosi o structura de date de tip dictionar pentru a stoca datele fiecarui dispozitiv.
+    exemplu:
+    devices = 
+    {
+        "device_1" : ([2025-05-10 08:00:00, 2025-05-10 08:05:00, 2025-05-10 08:10:00],[21.7, 21.3, 20.9], [43.1, 40.6, 42.6], [1012, 1030, 1025])
+    }
+
+- coloana timestamp se va stoca ca datetime
+    exemplu:
+
+    import datetime as dt
+    dt.datetime.strptime("2025-05-10 08:00:00", "%Y-%m-%d %H:%M:%S") #convertirea unui string in datetime
+
